@@ -1,5 +1,5 @@
 
-def string_operation():
+def str_operation():
     try:
         input1 = str(input("Enter your string here:"))
         if input1 != '' and input1 is not None and input1.isspace() != True and input1.isnumeric() != True:
@@ -15,5 +15,5 @@ def string_operation():
     except Exception as error:
         print("Error occured {}".format(error))
 if __name__ == "__main__":
-    string_operation()
+    str_operation()
 
