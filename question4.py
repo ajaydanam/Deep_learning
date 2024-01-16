@@ -1,6 +1,5 @@
-#Author : Sai Nalla
-#start
-def classScore():
+
+def grade():
     try:
         try:
             score = int(input("Enter your score here:"))
@@ -28,4 +27,4 @@ def classScore():
         print("Error occured {}".format(error)) 
 #end
 if __name__ == "__main__":
-    classScore()
+    grade()
