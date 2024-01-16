@@ -1,5 +1,5 @@
 
-def math_operations():
+def arthmetic_operations():
     try:
         try:
             input2 = int(input("Enter your first number:"))#enter the 1st integer value
@@ -27,4 +27,4 @@ def math_operations():
 #end
 
 if __name__ == "__main__":
-    math_operations()
+    arthmetic_operations()
