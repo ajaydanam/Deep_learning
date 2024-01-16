@@ -1,5 +1,5 @@
 
-def string_op():
+def string_replace():
     try:
         string1 = input("Enter your sentence here:")
         if string1 != '' and string1 is not None and string1.isspace() != True and string1.isnumeric() != True:
@@ -11,4 +11,4 @@ def string_op():
         print("Error occured {}".format(error))
 #end of block3
 if __name__ == "__main__":
-    string_op()
+    string_replace()
